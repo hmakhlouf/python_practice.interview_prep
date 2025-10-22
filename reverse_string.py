@@ -1,10 +1,12 @@
 # reverse string
-def f():
-    st = "hello"
+def solution(s):
     reverse = ""
-    for x in range(len(st) - 1, -1, -1):
-        reverse = reverse + st[x]
-    print(reverse)
+    for i in range(len(s) - 1, -1, -1):
+        reverse = reverse + s[i]
+    return reverse
 
 
-f()
+s = "hello"
+print(solution(s))
+
+
